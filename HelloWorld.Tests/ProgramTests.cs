@@ -35,7 +35,7 @@ namespace HelloWorld.Tests
             var actual = target.Multiply(1, 2);
 
             // Assert
-            Assert.AreEqual(actual, 0);
+            Assert.AreEqual(actual, 2);
         }
 
         [TestMethod]
@@ -48,7 +48,7 @@ namespace HelloWorld.Tests
             var actual = target.Subtract(2, 1);
 
             // Assert
-            Assert.AreEqual(actual, 2);
+            Assert.AreEqual(actual, 1);
         }
     }
 }
