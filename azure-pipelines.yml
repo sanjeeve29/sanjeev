@@ -34,7 +34,7 @@ steps:
     configuration: '$(buildConfiguration)'
     
 - task: PublishCodeCoverageResults@1
-  inputs:
-    codeCoverageTool: 'JaCoCo'
-    summaryFileLocation: '$(System.DefaultWorkingDirectory)/MyApp/**/site/cobertura/coverage.xml'
-    reportDirectory: '$(System.DefaultWorkingDirectory)/MyApp/**/site/cobertura'
+  inputs: 
+    codeCoverageTool: Cobertura
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/*coverage.xml'
+    reportDirectory: '$(System.DefaultWorkingDirectory)/**/coverage'
