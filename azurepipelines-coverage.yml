@@ -1,0 +1,5 @@
+coverage:
+  status: off
+  diff: off
+  target: 70%   #set this to a desired %. Default is 70%.\
+  comments : off
