@@ -35,7 +35,7 @@ namespace HelloWorld.Tests
             var actual = target.Multiply(1, 2);
 
             // Assert
-            Assert.AreEqual(actual, 2);
+            Assert.AreEqual(actual, 3);
         }
 
         [TestMethod]
